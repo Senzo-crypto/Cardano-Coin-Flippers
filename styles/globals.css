@@ -1,0 +1,68 @@
+.BetAmount {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.demo button {
+  padding: 1rem;
+  border-radius: 0.375rem;
+  font-size: 24px;
+  background-image: linear-gradient(
+    to left top,
+    #db34ff,
+    #e642ed,
+    #ec52dd,
+    #ee62cf,
+    #ed72c4,
+    #f97db5,
+    #fe8ba9,
+    #ff9aa3,
+    #ffaf98,
+    #ffc992,
+    #ffe497,
+    #fbffaa
+  );
+}
+
+.Description {
+  font-size: 24px;
+}
+button {
+  background: linear-gradient(
+    to left top,
+    #db34ff,
+    #e642ed,
+    #ec52dd,
+    #ee62cf,
+    #ed72c4,
+    #f97db5,
+    #fe8ba9,
+    #ff9aa3,
+    #ffaf98,
+    #ffc992,
+    #ffe497,
+    #fbffaa
+  );
+  border-radius: 0.375rem;
+}
+
+.LinkSite {
+  font: linear-gradient(
+    to left top,
+    #db34ff,
+    #e642ed,
+    #ec52dd,
+    #ee62cf,
+    #ed72c4,
+    #f97db5,
+    #fe8ba9,
+    #ff9aa3,
+    #ffaf98,
+    #ffc992,
+    #ffe497,
+    #fbffaa
+  );
+}
+.title a {
+  color: orange;
+}
