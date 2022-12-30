@@ -4,8 +4,10 @@ const nextConfig = {
   webpack: function (config, options) {
     config.experiments = {
       asyncWebAssembly: true,
+      topLevelAwait: true
     };
     return config;
-  },
+  }
 };
+
 module.exports = nextConfig;

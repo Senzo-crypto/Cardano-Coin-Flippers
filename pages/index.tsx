@@ -1,5 +1,8 @@
 import Head from "next/head";
 import { CardanoWallet, MeshBadge } from "@meshsdk/react";
+import { Lucid } from "lucid-cardano"
+
+const lucid = await Lucid.new();
 
 const betAmounts = [1, 5, 10];
 
